@@ -1,0 +1,71 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.hero-banner {
+  position: relative;
+  background-image: url("images/rearview-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+.quote-section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #333;
+  text-align: center;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.bottom-text {
+  position: absolute;
+  bottom: 8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: center;
+  color: #f0f0f0;
+  max-width: 1000px;
+  width: 90%;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.bottom-text .title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bottom-text .quote {
+  font-size: 1.3rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+.nowrap {
+  white-space: nowrap;
+}
