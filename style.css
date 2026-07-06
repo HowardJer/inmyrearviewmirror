@@ -3,11 +3,12 @@ body, html {
   padding: 0;
   height: 100%;
   font-family: Arial, sans-serif;
+  background-color: #b8a99a;
 }
 
 .hero-banner {
   position: relative;
-  background-image: url("images/rearview-background.png");
+  background-image: url("images/home/rearview-background2.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -68,4 +69,36 @@ body, html {
 }
 .nowrap {
   white-space: nowrap;
+}
+.enter-link {
+    margin-top: 25px;
+   }
+
+.enter-link a {
+    color:  #4a7bd1;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.enter-link a:hover {
+    text-decoration: underline;
+}
+.intro-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  color: #222;
+}
+
+.intro-page .title {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro-text {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  white-space: pre-line;
 }
